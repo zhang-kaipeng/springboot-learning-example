@@ -57,7 +57,7 @@ public class BookControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON_UTF8))
                 .andExpect(jsonPath("$", hasSize(0)));
-
+        System.out.println("12345");
     }
 
 
